@@ -8,4 +8,6 @@ home: https://grafana.net
 icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
 sources:
   - https://github.com/grafana/grafana
+maintainers:	
+  - name: sailakhan	
 engine: gotpl
