@@ -10,7 +10,7 @@ podTemplate(
         ),
         containerTemplate(
             name: 'helm', 
-            image: 'adgear/helm-chart-resource'
+            image: 'adgear/helm-chart-resource',
             //image: 'ibmcom/k8s-helm:v2.6.0', adgear/helm-chart-resource
             ttyEnabled: true,
             command: 'cat'
