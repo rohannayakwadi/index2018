@@ -10,7 +10,7 @@ podTemplate(
         ),
         containerTemplate(
             name: 'helm', 
-            image: 'ibmcom/k8s-helm:v2.6.0',
+            image: 'exozet/helm:3.0.2',
             ttyEnabled: true,
             command: 'cat'
         )
