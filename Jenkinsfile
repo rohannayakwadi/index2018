@@ -36,7 +36,8 @@ podTemplate(
         }
         stage ('Deploy') {
             container ('helm') {
-                sh "helm init --upgrade --client-only --skip-refresh"
+                sh "helm init"
+                //sh "helm init --upgrade --client-only --skip-refresh"
                 //sh "helm ls"
                 sh "helm upgrade --install my-grafana grafana"
             }
