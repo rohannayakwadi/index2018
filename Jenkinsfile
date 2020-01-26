@@ -32,6 +32,7 @@ podTemplate(
             container ('helm') {
                 sh "helm ls"
                 sh "helm upgrade --install my-grafana grafana"
+                sh "helm ls"
                 // sh "helm init"
                 //sh "helm upgrade --install --wait --set image.repository=${repository},image.tag=${commitId} hello hello"
             }
